@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --primary: #4F46E5;
@@ -8,9 +10,6 @@
   --glass: rgba(255, 255, 255, 0.7);
   --glass-border: rgba(255, 255, 255, 0.3);
   --bg-gradient: linear-gradient(135deg, #f1f5f9 0%, #cbd5e1 100%);
-}
-
-@theme {
   --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
   --font-outfit: 'Outfit', sans-serif;
 }
